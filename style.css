@@ -19,7 +19,7 @@ header {
 #logo {
   width: 150px;        /* adjust size as needed */
   height: auto;        /* maintain aspect ratio */
-  display: block;      /* logo on its own line */
+  display: block;      /* puts logo on its own line */
   margin: 0 auto 1rem; /* center logo with spacing below */
 }
 
