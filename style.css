@@ -105,8 +105,8 @@ header {
   margin: 0.5em 0;
 }
 
-/* CTA Button */
-.cta-button {
+/* Inline CTA Button (Contact Section) */
+.contact .cta-button {
   display: inline-block;
   margin-top: 1.5em;
   padding: 0.8em 1.8em;
@@ -118,7 +118,7 @@ header {
   transition: background-color 0.3s;
 }
 
-.cta-button:hover {
+.contact .cta-button:hover {
   background-color: #081426;
 }
 
