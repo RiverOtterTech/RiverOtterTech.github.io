@@ -10,7 +10,7 @@ body {
 header {
   text-align: center;
   padding: 2em 1em;
-  background-color: #0E2132; /* brand color */
+  background-color: #0E2132;
   color: #fff;
 }
 
@@ -105,13 +105,13 @@ header {
   margin: 0.5em 0;
 }
 
-/* Inline CTA Button */
+/* CTA Button */
 .cta-button {
   display: inline-block;
   margin-top: 1.5em;
   padding: 0.8em 1.8em;
   background-color: #0E2132;
-  color: #ffffff !important;  /* force white text */
+  color: #ffffff !important; /* FORCE white text */
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
@@ -144,7 +144,7 @@ header {
 .newsletter button {
   padding: 0.7em 1.5em;
   background-color: #0E2132;
-  color: #fff;
+  color: #ffffff !important; /* FORCE white text */
   border: none;
   border-radius: 5px;
   font-weight: bold;
@@ -171,7 +171,7 @@ footer {
   bottom: 20px;
   right: 20px;
   background-color: #0E2132;
-  color: #ffffff !important;   /* force white text */
+  color: #ffffff !important; /* FORCE white text */
   padding: 0.8em 1.5em;
   border-radius: 5px;
   font-weight: bold;
