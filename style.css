@@ -27,7 +27,7 @@ header {
 /* Sections */
 .intro, .services, .why-us, .newsletter {
   padding: 2em 1em;
-  max-width: 900px;
+  max-width: 1000px;
   margin: auto;
 }
 
@@ -46,16 +46,24 @@ header {
 }
 
 .why-us .feature {
-  flex: 1 1 200px;
-  max-width: 250px;
+  flex: 1 1 220px;
+  max-width: 280px;
   background-color: #fff;
-  padding: 1em;
+  padding: 1.2em;
   border-radius: 10px;
-  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.why-us .feature:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0,0,0,0.15);
 }
 
 .why-us h3 {
   color: #0E2132;
+  font-size: 1.1rem;
 }
 
 /* Services */
@@ -70,7 +78,7 @@ header {
   color: #0E2132;
 }
 
-/* Revamped IT Project / Managed Services */
+/* IT Project & Managed Services */
 .it-services {
   display: flex;
   flex-wrap: wrap;
@@ -84,13 +92,20 @@ header {
   border-radius: 10px;
   padding: 1.5em;
   max-width: 350px;
-  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.it-service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
 
 .it-service-card h3 {
   color: #0E2132;
   margin-bottom: 0.8em;
+  font-size: 1.2rem;
 }
 
 .it-service-card p {
@@ -117,21 +132,22 @@ header {
   margin: 0.5em 0;
 }
 
-/* Inline CTA Button (Contact Section) */
+/* Inline CTA Button */
 .contact .cta-button {
   display: inline-block;
   margin-top: 1.5em;
-  padding: 0.8em 1.8em;
+  padding: 0.8em 2em;
   background-color: #0E2132;
   color: #ffffff !important;
   text-decoration: none !important;
   border-radius: 5px;
   font-weight: bold;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .contact .cta-button:hover {
   background-color: #081426;
+  transform: translateY(-2px);
 }
 
 /* Newsletter Section */
@@ -161,11 +177,12 @@ header {
   border-radius: 5px;
   font-weight: bold;
   cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .newsletter button:hover {
   background-color: #081426;
+  transform: translateY(-2px);
 }
 
 /* Footer */
@@ -190,9 +207,18 @@ footer {
   text-decoration: none;
   box-shadow: 0 4px 8px rgba(0,0,0,0.2);
   z-index: 1000;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s, transform 0.3s;
 }
 
 .sticky-cta:hover {
   background-color: #081426;
+  transform: translateY(-2px);
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .it-services, .why-us .features {
+    flex-direction: column;
+    gap: 1.5em;
+  }
 }
