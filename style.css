@@ -10,7 +10,7 @@ body {
 header {
   text-align: center;
   padding: 2em 1em;
-  background-color: #0E2132; /* main color */
+  background-color: #0E2132; /* MAIN NAVY */
   color: #fff;
 }
 
@@ -55,7 +55,7 @@ header {
 }
 
 .why-us h3 {
-  color: #0E2132; /* all headers use brand color */
+  color: #0E2132; /* navy for headings */
 }
 
 /* Services */
@@ -67,7 +67,7 @@ header {
 .services li {
   padding: 0.5em 0;
   font-weight: bold;
-  color: #0E2132; /* service items use brand color */
+  color: #0E2132; /* navy for service items */
 }
 
 .service-summary {
@@ -79,7 +79,7 @@ header {
 
 /* Contact / Free Audit */
 .contact {
-  background-color: #e0f7fa; /* light contrast background */
+  background-color: #f0f4f8; /* light contrast */
   text-align: center;
   border-radius: 10px;
   margin: 2em 0;
@@ -87,7 +87,7 @@ header {
 }
 
 .contact a {
-  color: #0E2132; /* brand color for links */
+  color: #0E2132; /* navy links */
   text-decoration: none;
   font-weight: bold;
 }
@@ -101,7 +101,7 @@ header {
   display: inline-block;
   margin-top: 1em;
   padding: 0.8em 1.5em;
-  background-color: #0E2132;
+  background-color: #0E2132; /* navy */
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -110,12 +110,12 @@ header {
 }
 
 .cta-button:hover {
-  background-color: #081426;
+  background-color: #081426; /* slightly darker navy */
 }
 
 /* Newsletter Section */
 .newsletter {
-  background-color: #f0f4f8; /* light contrast */
+  background-color: #f0f4f8; /* light background for readability */
   padding: 2em 1em;
   text-align: center;
   border-radius: 10px;
