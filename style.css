@@ -1,76 +1,115 @@
-/* General layout and typography */
+/* General Styles */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: #f9fafb;
-  color: #222;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.6;
+  color: #333;
 }
 
-/* Header */
 header {
-  background: #0E2132; /* updated blue */
-  color: #fff;
   text-align: center;
-  padding: 2rem 1rem;
+  padding: 2em 1em;
+  background-color: #00796b;
+  color: #fff;
 }
 
-/* Logo styling */
 #logo {
-  width: 700px;       /* triple original size */
-  height: auto;       /* maintain aspect ratio */
-  display: block;     /* logo on its own line */
-  margin: 0 auto 1rem; /* center logo with spacing below */
+  max-width: 200px;
+  height: auto;
 }
 
-/* Tagline under logo */
 .tagline {
-  font-style: italic;
-  font-size: 1.1rem;
-  color: #d9e2f3;
+  margin-top: 0.5em;
+  font-size: 1.2rem;
 }
 
-/* Sections */
-section {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+/* Intro Section */
+.intro, .services, .contact, .why-us, .free-audit {
+  padding: 2em 1em;
+  max-width: 900px;
+  margin: auto;
 }
 
-/* Section headings */
-h2 {
-  color: #0E2132; /* match new blue */
-  border-bottom: 2px solid #0E2132;
-  padding-bottom: 0.3rem;
+/* Why Choose Us */
+.why-us {
+  background-color: #f8f8f8;
+  text-align: center;
 }
 
-/* Lists */
-ul {
+.why-us .features {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2em;
+  margin-top: 1em;
+}
+
+.why-us .feature {
+  flex: 1 1 200px;
+  max-width: 250px;
+  background-color: #fff;
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+}
+
+/* Services Section */
+.services ul {
   list-style: none;
   padding: 0;
 }
 
-ul li {
-  background: #e6eef9;
-  margin: 0.5rem 0;
-  padding: 0.6rem 1rem;
-  border-radius: 6px;
+.services li {
+  padding: 0.5em 0;
+  font-weight: bold;
 }
 
-/* Contact links */
-.contact a {
-  color: #0E2132; /* match new blue */
+.service-summary {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  margin-top: 1em;
+  color: #333;
+}
+
+/* Free Audit Section */
+.free-audit {
+  background-color: #e0f7fa;
+  text-align: center;
+  border-radius: 10px;
+  margin: 2em 0;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 1em;
+  padding: 0.8em 1.5em;
+  background-color: #00796b;
+  color: #fff;
   text-decoration: none;
+  border-radius: 5px;
   font-weight: bold;
+}
+
+.cta-button:hover {
+  background-color: #004d40;
+}
+
+/* Contact Section */
+.contact a {
+  color: #00796b;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
 }
 
 /* Footer */
 footer {
   text-align: center;
-  background: #0E2132; /* updated blue */
-  color: white;
-  padding: 1rem;
-  margin-top: 2rem;
+  background-color: #f8f8f8;
+  padding: 1em;
+  font-size: 0.9rem;
+  color: #555;
 }
-
