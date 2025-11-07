@@ -18,7 +18,7 @@ header {
 
 /* Logo styling */
 #logo {
-  width: 450px;       /* triple original size */
+  width: 700px;       /* triple original size */
   height: auto;       /* maintain aspect ratio */
   display: block;     /* logo on its own line */
   margin: 0 auto 1rem; /* center logo with spacing below */
@@ -73,3 +73,4 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
