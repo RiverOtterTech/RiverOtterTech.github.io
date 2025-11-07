@@ -25,7 +25,7 @@ header {
 }
 
 /* Sections */
-.intro, .services, .contact, .why-us, .free-audit, .newsletter {
+.intro, .services, .contact, .why-us, .newsletter {
   padding: 2em 1em;
   max-width: 900px;
   margin: auto;
@@ -72,27 +72,22 @@ header {
   color: #333;
 }
 
-/* Free Audit Section */
-.free-audit {
+/* Contact / Free Audit */
+.contact {
   background-color: #e0f7fa;
   text-align: center;
   border-radius: 10px;
   margin: 2em 0;
+  padding: 2em 1em;
 }
 
-.cta-button {
-  display: inline-block;
-  margin-top: 1em;
-  padding: 0.8em 1.5em;
-  background-color: #00796b;
-  color: #fff;
+.contact a {
+  color: #00796b;
   text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
 }
 
-.cta-button:hover {
-  background-color: #004d40;
+.contact a:hover {
+  text-decoration: underline;
 }
 
 /* Newsletter Section */
@@ -129,16 +124,6 @@ header {
   background-color: #004d40;
 }
 
-/* Contact */
-.contact a {
-  color: #00796b;
-  text-decoration: none;
-}
-
-.contact a:hover {
-  text-decoration: underline;
-}
-
 /* Footer */
 footer {
   text-align: center;
@@ -146,24 +131,4 @@ footer {
   padding: 1em;
   font-size: 0.9rem;
   color: #555;
-}
-
-/* Sticky CTA Button */
-.sticky-cta {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  background-color: #00796b;
-  color: #fff;
-  padding: 0.8em 1.5em;
-  border-radius: 5px;
-  font-weight: bold;
-  text-decoration: none;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
-  z-index: 1000;
-  transition: background-color 0.3s;
-}
-
-.sticky-cta:hover {
-  background-color: #004d40;
 }
