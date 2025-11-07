@@ -8,6 +8,7 @@ body {
   line-height: 1.6;
 }
 
+/* Header */
 header {
   background: #0E2132; /* updated blue */
   color: #fff;
@@ -17,29 +18,34 @@ header {
 
 /* Logo styling */
 #logo {
-  display: block;
+  width: 200px;        /* bigger, visible logo */
+  height: auto;        /* maintain aspect ratio */
+  display: block;      /* puts logo on its own line */
   margin: 0 auto 1rem; /* center logo with spacing below */
-  height: auto;         /* natural/original size */
 }
 
+/* Tagline under logo */
 .tagline {
   font-style: italic;
   font-size: 1.1rem;
   color: #d9e2f3;
 }
 
+/* Sections */
 section {
   max-width: 800px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
+/* Section headings */
 h2 {
   color: #0E2132; /* match new blue */
   border-bottom: 2px solid #0E2132;
   padding-bottom: 0.3rem;
 }
 
+/* Lists */
 ul {
   list-style: none;
   padding: 0;
@@ -52,12 +58,14 @@ ul li {
   border-radius: 6px;
 }
 
+/* Contact links */
 .contact a {
   color: #0E2132; /* match new blue */
   text-decoration: none;
   font-weight: bold;
 }
 
+/* Footer */
 footer {
   text-align: center;
   background: #0E2132; /* updated blue */
