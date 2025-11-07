@@ -10,7 +10,7 @@ body {
 header {
   text-align: center;
   padding: 2em 1em;
-  background-color: #00796b;
+  background-color: #0E2132; /* main dark color */
   color: #fff;
 }
 
@@ -74,7 +74,7 @@ header {
 
 /* Contact / Free Audit */
 .contact {
-  background-color: #e0f7fa;
+  background-color: #e0f7fa; /* teal highlight */
   text-align: center;
   border-radius: 10px;
   margin: 2em 0;
@@ -82,8 +82,9 @@ header {
 }
 
 .contact a {
-  color: #00796b;
+  color: #0E2132; /* main dark color for links */
   text-decoration: none;
+  font-weight: bold;
 }
 
 .contact a:hover {
@@ -92,7 +93,7 @@ header {
 
 /* Newsletter Section */
 .newsletter {
-  background-color: #f0f4f8;
+  background-color: #f0f4f8; /* soft newsletter bg */
   padding: 2em 1em;
   text-align: center;
   border-radius: 10px;
@@ -111,7 +112,7 @@ header {
 
 .newsletter button {
   padding: 0.7em 1.5em;
-  background-color: #00796b;
+  background-color: #0E2132; /* main dark color */
   color: #fff;
   border: none;
   border-radius: 5px;
@@ -121,7 +122,7 @@ header {
 }
 
 .newsletter button:hover {
-  background-color: #004d40;
+  background-color: #081426; /* slightly darker for hover */
 }
 
 /* Footer */
