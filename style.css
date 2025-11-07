@@ -10,7 +10,7 @@ body {
 header {
   text-align: center;
   padding: 2em 1em;
-  background-color: #0E2132; /* main dark color */
+  background-color: #0E2132; /* main color */
   color: #fff;
 }
 
@@ -54,6 +54,10 @@ header {
   box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
 
+.why-us h3 {
+  color: #0E2132; /* all headers use brand color */
+}
+
 /* Services */
 .services ul {
   list-style: none;
@@ -63,18 +67,19 @@ header {
 .services li {
   padding: 0.5em 0;
   font-weight: bold;
+  color: #0E2132; /* service items use brand color */
 }
 
 .service-summary {
   font-size: 0.9rem;
   line-height: 1.4;
   margin-top: 1em;
-  color: #333;
+  color: #0E2132;
 }
 
 /* Contact / Free Audit */
 .contact {
-  background-color: #e0f7fa; /* teal highlight */
+  background-color: #e0f7fa; /* light contrast background */
   text-align: center;
   border-radius: 10px;
   margin: 2em 0;
@@ -82,7 +87,7 @@ header {
 }
 
 .contact a {
-  color: #0E2132; /* dark navy for links */
+  color: #0E2132; /* brand color for links */
   text-decoration: none;
   font-weight: bold;
 }
@@ -96,7 +101,7 @@ header {
   display: inline-block;
   margin-top: 1em;
   padding: 0.8em 1.5em;
-  background-color: #0E2132; /* dark navy */
+  background-color: #0E2132;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -110,7 +115,7 @@ header {
 
 /* Newsletter Section */
 .newsletter {
-  background-color: #f0f4f8;
+  background-color: #f0f4f8; /* light contrast */
   padding: 2em 1em;
   text-align: center;
   border-radius: 10px;
@@ -148,7 +153,7 @@ footer {
   background-color: #f8f8f8;
   padding: 1em;
   font-size: 0.9rem;
-  color: #555;
+  color: #0E2132;
 }
 
 /* Sticky CTA Button */
@@ -156,7 +161,7 @@ footer {
   position: fixed;
   bottom: 20px;
   right: 20px;
-  background-color: #0E2132; /* dark navy */
+  background-color: #0E2132;
   color: #fff;
   padding: 0.8em 1.5em;
   border-radius: 5px;
