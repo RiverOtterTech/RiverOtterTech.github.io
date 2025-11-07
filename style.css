@@ -24,8 +24,8 @@ header {
   font-size: 1.2rem;
 }
 
-/* Intro Section */
-.intro, .services, .contact, .why-us, .free-audit {
+/* Sections */
+.intro, .services, .contact, .why-us, .free-audit, .newsletter {
   padding: 2em 1em;
   max-width: 900px;
   margin: auto;
@@ -54,7 +54,7 @@ header {
   box-shadow: 0 3px 6px rgba(0,0,0,0.1);
 }
 
-/* Services Section */
+/* Services */
 .services ul {
   list-style: none;
   padding: 0;
@@ -95,7 +95,41 @@ header {
   background-color: #004d40;
 }
 
-/* Contact Section */
+/* Newsletter Section */
+.newsletter {
+  background-color: #f0f4f8;
+  padding: 2em 1em;
+  text-align: center;
+  border-radius: 10px;
+  margin: 2em auto;
+  max-width: 600px;
+}
+
+.newsletter input[type="email"] {
+  padding: 0.7em;
+  width: 60%;
+  max-width: 300px;
+  margin-right: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.newsletter button {
+  padding: 0.7em 1.5em;
+  background-color: #00796b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.newsletter button:hover {
+  background-color: #004d40;
+}
+
+/* Contact */
 .contact a {
   color: #00796b;
   text-decoration: none;
@@ -112,4 +146,24 @@ footer {
   padding: 1em;
   font-size: 0.9rem;
   color: #555;
+}
+
+/* Sticky CTA Button */
+.sticky-cta {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #00796b;
+  color: #fff;
+  padding: 0.8em 1.5em;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+  transition: background-color 0.3s;
+}
+
+.sticky-cta:hover {
+  background-color: #004d40;
 }
