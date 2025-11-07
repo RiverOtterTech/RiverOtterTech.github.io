@@ -10,7 +10,7 @@ body {
 header {
   text-align: center;
   padding: 2em 1em;
-  background-color: #0E2132; /* MAIN NAVY */
+  background-color: #0E2132; /* brand color */
   color: #fff;
 }
 
@@ -55,7 +55,7 @@ header {
 }
 
 .why-us h3 {
-  color: #0E2132; /* navy for headings */
+  color: #0E2132;
 }
 
 /* Services */
@@ -67,7 +67,7 @@ header {
 .services li {
   padding: 0.5em 0;
   font-weight: bold;
-  color: #0E2132; /* navy for service items */
+  color: #0E2132;
 }
 
 .service-summary {
@@ -77,17 +77,20 @@ header {
   color: #0E2132;
 }
 
-/* Contact / Free Audit */
+/* Contact / Free Audit Section */
 .contact {
-  background-color: #f0f4f8; /* light contrast */
+  background-color: #f0f4f8;
   text-align: center;
   border-radius: 10px;
   margin: 2em 0;
   padding: 2em 1em;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .contact a {
-  color: #0E2132; /* navy links */
+  color: #0E2132;
   text-decoration: none;
   font-weight: bold;
 }
@@ -96,12 +99,16 @@ header {
   text-decoration: underline;
 }
 
-/* Inline CTA Button in Contact */
+.contact-info p {
+  margin: 0.5em 0;
+}
+
+/* Inline CTA Button */
 .cta-button {
   display: inline-block;
-  margin-top: 1em;
-  padding: 0.8em 1.5em;
-  background-color: #0E2132; /* navy */
+  margin-top: 1.5em;
+  padding: 0.8em 1.8em;
+  background-color: #0E2132;
   color: #fff;
   text-decoration: none;
   border-radius: 5px;
@@ -110,12 +117,12 @@ header {
 }
 
 .cta-button:hover {
-  background-color: #081426; /* slightly darker navy */
+  background-color: #081426;
 }
 
 /* Newsletter Section */
 .newsletter {
-  background-color: #f0f4f8; /* light background for readability */
+  background-color: #f0f4f8;
   padding: 2em 1em;
   text-align: center;
   border-radius: 10px;
