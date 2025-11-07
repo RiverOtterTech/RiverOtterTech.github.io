@@ -17,15 +17,9 @@ header {
 
 /* Logo styling */
 #logo {
-  width: 120px;        /* nice, readable size for header */
-  height: auto;        /* maintain aspect ratio */
-  display: block;      /* puts logo on its own line */
+  display: block;
   margin: 0 auto 1rem; /* center logo with spacing below */
-}
-
-header h1 {
-  margin: 0;
-  font-size: 2.5rem;
+  height: auto;         /* natural/original size */
 }
 
 .tagline {
@@ -71,9 +65,3 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
-
-
-
-
-
-
