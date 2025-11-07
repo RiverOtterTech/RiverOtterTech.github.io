@@ -9,7 +9,7 @@ body {
 }
 
 header {
-  background: #003366;
+  background: #0E2132; /* updated blue */
   color: #fff;
   text-align: center;
   padding: 2rem 1rem;
@@ -17,9 +17,9 @@ header {
 
 /* Logo styling */
 #logo {
-  width: 150px;        /* adjust size as needed */
-  height: auto;        /* maintain aspect ratio */
-  display: block;      /* puts logo on its own line */
+  width: 75px;        /* 50% smaller than before (original was 150px) */
+  height: auto;       /* maintain aspect ratio */
+  display: block;     /* puts logo on its own line */
   margin: 0 auto 1rem; /* center logo with spacing below */
 }
 
@@ -41,8 +41,8 @@ section {
 }
 
 h2 {
-  color: #003366;
-  border-bottom: 2px solid #003366;
+  color: #0E2132; /* match the new blue */
+  border-bottom: 2px solid #0E2132;
   padding-bottom: 0.3rem;
 }
 
@@ -59,14 +59,14 @@ ul li {
 }
 
 .contact a {
-  color: #003366;
+  color: #0E2132; /* match the new blue */
   text-decoration: none;
   font-weight: bold;
 }
 
 footer {
   text-align: center;
-  background: #003366;
+  background: #0E2132; /* updated blue */
   color: white;
   padding: 1rem;
   margin-top: 2rem;
