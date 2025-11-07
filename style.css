@@ -25,7 +25,7 @@ header {
 }
 
 /* Sections */
-.intro, .services, .contact, .why-us, .newsletter {
+.intro, .services, .why-us, .newsletter {
   padding: 2em 1em;
   max-width: 900px;
   margin: auto;
@@ -80,11 +80,15 @@ header {
 /* Contact / Free Audit Section */
 .contact {
   background-color: #f0f4f8;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   border-radius: 10px;
   padding: 2em 1em;
   max-width: 700px;
   margin: 2em auto;
+  text-align: center;
 }
 
 .contact a {
@@ -107,7 +111,7 @@ header {
   margin-top: 1.5em;
   padding: 0.8em 1.8em;
   background-color: #0E2132;
-  color: #fff;
+  color: #ffffff !important;  /* force white text */
   text-decoration: none;
   border-radius: 5px;
   font-weight: bold;
@@ -167,7 +171,7 @@ footer {
   bottom: 20px;
   right: 20px;
   background-color: #0E2132;
-  color: #fff;
+  color: #ffffff !important;   /* force white text */
   padding: 0.8em 1.5em;
   border-radius: 5px;
   font-weight: bold;
